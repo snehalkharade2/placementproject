@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name = "viewport" content="width = device-width,initial-scale = 1.0 ">
+</head>    
+<style>
+    body{
+        background-image: url("https://cdn.w600.comps.canstockphoto.com/job-career-work-opportunity-words-road-stock-illustrations_csp11371858.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; background-size: cover;
+        }
+</style>
+<title style="text-align:center;">Prediction on Job Placement</title>
+
+
+    <h1>Prediction on Job Placement</h1>
+    <form method = "POST" action = "/job_status">
+
+        <label> gender :</label>
+        <select name = "gender">
+            <option value = "M"> Male</option>
+            <option value = "F">Female</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        
+        <label> ssc_percentage : </label>
+        <input type = "text" name = "ssc_percentage">
+        </select>
+        
+        
+        <br>
+        <br>
+
+        <label> ssc_board :</label>
+        <select name = "ssc_board">
+            <option value = "Central"> Central </option>
+            <option value = "Others"> Others </option>
+        </select>
+
+
+        <br>
+        <br>
+
+        <label> hsc_percentage : </label>
+        <input type = "text" name = "hsc_percentage">
+        </select>
+        
+        
+        <br>
+        <br>
+
+        <label> hsc_board :</label>
+        <select name = "hsc_board">
+            <option value = "Central"> Central </option>
+            <option value = "Others"> Others</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        <label>hsc_subject :</label>
+        <select name = "hsc_subject">
+            <option value = "Commerce">Commerce</option>
+            <option value = "Science">Science</option>
+            <option value = "Arts">Arts</option>
+            
+        </select>    
+        
+        <br>
+        <br>
+
+        <label> degree_percentage : </label>
+        <input type = "text" name = "degree_percentage">
+        </select>
+        
+        
+        <br>
+        <br>
+
+        <label>undergrad_degree :</label>
+        <select name = "undergrad_degree">
+            <option value = "Comm&Mgmt">Comm&Mgmt</option>
+            <option value = "Sci&Tech">Sci&Tech</option>
+            <option value = "Others">Others</option>
+            
+        </select>    
+        
+        <br>
+        <br>
+        <label> Work_experience:</label>
+        <select name = "work_experience">
+            <option value = "Yes"> Yes </option>
+            <option value = "No"> No </option>
+        </select>
+
+
+        <br>
+        <br>
+        
+        <label> emp_test_percentage : </label>
+        <input type = "text" name = "emp_test_percentage">
+        </select>
+        
+        
+        <br>
+        <br>
+        <label> Specialisation:</label>
+        <select name = "specialisation">
+            <option value = "Mkt&Fin"> Mkt&Fin </option>
+            <option value = "Mkt&HR"> Mkt&HR</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        
+        <label> mba_percent : </label>
+        <input type = "text" name = "mba_percent">
+        </select>
+        
+        
+        <br>
+        <br>
+        <input type = "submit" value = "SUBMIT">
+        
+        <br>
+
+            
+        <p>Your are being  <b>{{ prediction }}</b></p>  
+        
+    </form>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
